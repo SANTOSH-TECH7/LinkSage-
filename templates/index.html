@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Smart Topic Link Finder</title>
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+</head>
+<body>
+  <!-- Matrix Canvas Background -->
+  <canvas id="matrixCanvas"></canvas>
+
+  <!-- Background Animation Overlay -->
+  <div class="background-animation"></div>
+
+  <!-- Page Title -->
+  <h1>🔗 AI Link Finder</h1>
+
+  <!-- Search Section -->
+  <div class="search-container">
+    <input type="text" id="topicInput" placeholder="Enter your topic (e.g., python, java, spring ai)">
+    <button id="searchBtn">Get Links</button>
+    <button id="moreBtn" style="display: none;">More</button>
+  </div>
+
+  <!-- Popular Topics -->
+  <div class="topics-list">
+    <h3>Popular Topics:</h3>
+    <div class="topic-buttons">
+      <button class="topic-btn" data-topic="spring ai">Spring AI</button>
+      <button class="topic-btn" data-topic="python">Python</button>
+      <button class="topic-btn" data-topic="java">Java</button>
+      <button class="topic-btn" data-topic="machine learning">Machine Learning</button>
+      <button class="topic-btn" data-topic="javascript">JavaScript</button>
+    </div>
+    <button id="showAllBtn">Show All Topics</button>
+    <div id="allTopics" style="display: none;"></div>
+  </div>
+
+  <!-- Search Results -->
+  <div id="results"></div>
+
+  <!-- JavaScript File -->
+  <script src="{{ url_for('static', filename='css/js/script.js') }}"></script>
+</body>
+</html>
