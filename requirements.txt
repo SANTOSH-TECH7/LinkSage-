@@ -6,7 +6,4 @@ uvicorn
 jinja2
 pandas
 openpyxl
-Flask
-pandas
-openpyxl
 gunicorn
