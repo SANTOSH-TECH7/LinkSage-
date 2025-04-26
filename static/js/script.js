@@ -2,7 +2,7 @@ let currentTopic = "";
 
 document.addEventListener("DOMContentLoaded", () => {
     console.log("Document loaded, initializing application...");
-    initMatrixRain(); // 🌧️ Initialize Matrix Rain
+    initMatrixRain(); //  Initialize Matrix Rain
 
     const input = document.getElementById("topicInput");
     input.addEventListener("keypress", (event) => {
