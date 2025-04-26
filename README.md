@@ -122,4 +122,4 @@ To assign a custom domain to your app:
 **SANTOSH-TECH7**  
 Artificial Intelligence and Data Science Representative, V.S.B Engineering College, Karur  
 GitHub: [SANTOSH-TECH7](https://github.com/SANTOSH-TECH7)  
-LinkedIn: [SANTOSH-TECH7](https://www.linkedin.com/in/santosh-tech7)
+
